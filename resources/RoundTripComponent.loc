@@ -1,0 +1,6 @@
+lnk.activeDate.resultsPage = {\"locator\":\"css=a[class*='active']>div[data-date]\",\"desc\":\"active date in results\"}
+lst.flightsListView.resultspage = {\"locator\":\"css=ul.listView.flights>li\",\"desc\":\"flights reults list view\"}
+lnk.dateSort.resultsPge = {\"locator\":\"css=a[data-sort='price']\",\"desc\":\"date sort\"}
+radio.selectFlight.resultsPage = {\"locator\":\"css=th[data-type='radio']>input\",\"desc\":\"fights select radio button\"}
+lbl.flightFare.resultsPage = {\"locator\":\"css=th [data-pr]\",\"desc\":\"flight fare details\"}
+list.title.resultsPage = {\"locator\":\"css=div.listTitle.legHeader Strong\",\"desc\":\"title of list\"}

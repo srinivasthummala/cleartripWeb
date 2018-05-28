@@ -1,0 +1,14 @@
+lnk.flights.homepage = {\"locator\":\"xpath=//a[starts-with(@href, '/flights')][contains(text(), 'Flights')]\",\"desc\":\"flights select link\"}
+radio.tripType.homepage = {\"locator\":\"xpath=//input[@id='RoundTrip']\",\"desc\":\"trip type selection\"}
+txt.orignLocation.homepage = {\"locator\":\"css=#FromTag\",\"desc\":\"orign city\"}
+txt.destination.homepage = {\"locator\":\"css=#ToTag\",\"desc\":\"destination city\"}
+lnk.pageTitle.homepage = {\"locator\":\"xpath=//span[contains(@title, 'Cleartrip')]\",\"desc\":\"page title\"}
+dt.depart.homepage = {\"locator\":\"id=DepartDate\",\"desc\":\"departue date\"}
+dt.return.homepage = {\"locator\":\"id=ReturnDate\",\"desc\":\"return date\"}
+cal.monthName.homepage = {\"locator\":\"css=div[class*='monthBlock'] span.ui-datepicker-month\",\"desc\":\"calender month name\"}
+btn.cal.nextMonth = {\"locator\":\"xpath=//a[@data-handler='next']\",\"desc\":\"calender next month button\"}
+btn.cal.prevMonth = {\"locator\":\"xpath=//a[@data-handler='prev']\",\"desc\":\"calender prev month button\"}
+cal.table.list = {\"locator\":\"xpath=//div[contains(@class,'monthBlock')]\",\"desc\":\"calender tables\"}
+cal.days.homepage = {\"locator\":\"css=tbody tr td  a.ui-state-default\",\"desc\":\"calender month day\"}
+btn.searchFlights.homepage = {\"locator\":\"css=input[id='SearchBtn']\",\"desc\":\"search flights button\"}
+lbl.searchSummary.searchresultsPage = {\"locator\":\"css=div.searchSummary strong\",\"desc\":\"search summary\"}

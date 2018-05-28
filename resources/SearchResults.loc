@@ -1,0 +1,3 @@
+list.roundTripResults.searchResultsPage = {\"locator\":\"css=section.resultsContainer div[class*='colZero leg col12']\",\"desc\":\"round trip search results\"}
+btn.book.resultspage = {\"locator\":\"xpath=(//button[text()='Book'])[2]\",\"desc\":\"book button\"}
+lbl.allAirlines.resultsPage = {\"locator\":\"xpath=//a/strong[text()='All airlines']\",\"desc\":\"label all airlines\"}
