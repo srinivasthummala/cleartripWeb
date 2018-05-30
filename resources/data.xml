@@ -1,0 +1,9 @@
+<root>
+	<test>
+		<data>
+			<originCity>Pune</originCity>
+			<destCity>Hyderabad</destCity>
+			<travel-date>2018-4-15</travel-date>
+		</data>
+	</test>
+</root>

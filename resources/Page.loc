@@ -12,3 +12,4 @@ cal.table.list = {\"locator\":\"xpath=//div[contains(@class,'monthBlock')]\",\"d
 cal.days.homepage = {\"locator\":\"css=tbody tr td  a.ui-state-default\",\"desc\":\"calender month day\"}
 btn.searchFlights.homepage = {\"locator\":\"css=input[id='SearchBtn']\",\"desc\":\"search flights button\"}
 lbl.searchSummary.searchresultsPage = {\"locator\":\"css=div.searchSummary strong\",\"desc\":\"search summary\"}
+lnk.hotels.homepage = {\"locator\":\"xpath=//a[starts-with(@href, '/hotels')][contains(text(), 'Hotels')]\",\"desc\":\"hotels link\"}

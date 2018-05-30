@@ -1,0 +1,6 @@
+lbl.header.hotlePage = {\"locator\":\"xpath=//h1[text()=\\\"Search for hotels\\\"]\",\"desc\":\"search for hotel header\"}
+txt.city.hotelPage = {\"locator\":\"css=input[id=\\\"Tags\\\"]\",\"desc\":\"set city for hotels\"}
+dd.travelers.hotelsPage = {\"locator\":\"css=select[id=\\\"travellersOnhome\\\"]\",\"desc\":\"select travelers from dropd down\"}
+btn.searchHotel.hotelPage = {\"locator\":\"id=SearchHotelsButton\",\"desc\":\"button for search hotels\"}
+dt.checkIn.hotelPage = {\"locator\":\"css=input[title=\\\"Check-in date\\\"]\",\"desc\":\"check in date\"}
+dt.checkOut.hotelPage = {\"locator\":\"css=input[title=\\\"Check-out date\\\"]\",\"desc\":\"check out date\"}

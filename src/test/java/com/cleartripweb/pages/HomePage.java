@@ -18,11 +18,14 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 
 	@Override
 	protected void openPage(PageLocator pageLocator, Object... args) {
-
+		driver.get("/");
+		driver.manage().window().maximize();
 	}
 
 	@FindBy(locator = "lnk.flights.homepage")
 	private QAFWebElement lnkFlightsHomepage;
+	@FindBy(locator = "lnk.hotels.homepage")
+	private QAFWebElement lnkHotelsHomepage;
 	@FindBy(locator = "radio.tripType.homepage")
 	private QAFWebElement radioTripTypeHomepage;
 	@FindBy(locator = "txt.orignLocation.homepage")
@@ -50,6 +53,9 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 
 	public QAFWebElement getLnkFlightsHomepage() {
 		return lnkFlightsHomepage;
+	}
+	public QAFWebElement getLnkHotelsHomepage() {
+		return lnkHotelsHomepage;
 	}
 
 	public QAFWebElement getRadioTripTypeHomepage() {
@@ -121,10 +127,10 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	}
 
 	public void launchPage() {
-		driver.get("/");
+		launchPage(null);
 	}
 
-	public void setDepartAndReturnDates() throws InterruptedException {
+	public void setDepartAndReturnDates(){
 		Date d = new Date();
 		SimpleDateFormat dateFormatter = new SimpleDateFormat("d/MMMM/yyyy");
 		Calendar calendar = Calendar.getInstance();
