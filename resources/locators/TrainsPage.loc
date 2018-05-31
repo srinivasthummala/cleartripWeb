@@ -1,0 +1,8 @@
+txt.fromStation.trainspage = {\"locator\":\"id=from_station\",\"desc\":\"from station field\"}
+txt.toStation.tainspage = {\"locator\":\"id=to_station\",\"desc\":\"to station field\"}
+dd.select.trainclass.trainspage = {\"locator\":\"id=trainClass\",\"desc\":\"select train class from dorpdown\"}
+cal.departDate.trainspage = {\"locator\":\"id=dpt_date\",\"desc\":\"select deatrure date from calender\"}
+dd.select.adults.trainspage = {\"locator\":\"id=train_adults\",\"desc\":\"select no of adults for travel\"}
+dd.select.children.trainspage = {\"locator\":\"id=train_children\",\"desc\":\"select no of children for travel\"}
+btn.searchTrains.trainspage = {\"locator\":\"css=button#trainFormButton\",\"desc\":\"search train button\"}
+lbl.trainSearch.trainspage = {\"locator\":\"xpath=//h1[text()='Search trains']\",\"desc\":\"trains search label\"}

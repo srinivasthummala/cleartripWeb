@@ -4,3 +4,7 @@ dd.travelers.hotelsPage = {\"locator\":\"css=select[id=\\\"travellersOnhome\\\"]
 btn.searchHotel.hotelPage = {\"locator\":\"id=SearchHotelsButton\",\"desc\":\"button for search hotels\"}
 dt.checkIn.hotelPage = {\"locator\":\"css=input[title=\\\"Check-in date\\\"]\",\"desc\":\"check in date\"}
 dt.checkOut.hotelPage = {\"locator\":\"css=input[title=\\\"Check-out date\\\"]\",\"desc\":\"check out date\"}
+cal.monthTitle.hotelpage = {\"locator\":\"css=thead th.month\",\"desc\":\"calander month title\"}
+cal.list.monthTablelist.hotelpage = {\"locator\":\"css=div#datePickerWrapper table\",\"desc\":\"calender month tables\"}
+cal.list.monthDay.hotelpage = {\"locator\":\"css=tbody tr td a\",\"desc\":\"calander month days list\"}
+cal.btn.next.hotelpage = {\"locator\":\"id=next\",\"desc\":\"next button in calendar\"}

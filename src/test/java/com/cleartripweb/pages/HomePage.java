@@ -26,6 +26,8 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	private QAFWebElement lnkFlightsHomepage;
 	@FindBy(locator = "lnk.hotels.homepage")
 	private QAFWebElement lnkHotelsHomepage;
+	@FindBy(locator = "lnk.trains.homepage")
+	private QAFWebElement lnkTrainsHomepage;
 	@FindBy(locator = "radio.tripType.homepage")
 	private QAFWebElement radioTripTypeHomepage;
 	@FindBy(locator = "txt.orignLocation.homepage")
@@ -58,6 +60,10 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		return lnkHotelsHomepage;
 	}
 
+	public QAFWebElement getLnkTrainsHomepage() {
+		return lnkTrainsHomepage;
+	}
+	
 	public QAFWebElement getRadioTripTypeHomepage() {
 		return radioTripTypeHomepage;
 	}

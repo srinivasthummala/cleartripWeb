@@ -1,32 +1,44 @@
+#
+#SCENARIO: Validate Round trip flight booking
+#META-DATA: {"description":"Round trip flight booking","groups":["SMOKE"],"dataFile":"resources/data.xls", "sheetName":"Sheet1"}
+#	
+#	Given user launch cleartrip application
+#	When user selects flights tab
+#	Then user selects round trip
+#	And user enter '${originCity}' and '${destCity}'
+#	And user select dates from calender
+#	When user click on search flights
+#	Then user verify results page
+#	And user select flights and click on book button
+#	
+#END
+#
+#SCENARIO: Validate Hotel search
+#META-DATA: {"description":"Round trip flight booking","groups":["SMOKE"],"dataFile":"resources/data.xls", "sheetName":"Sheet1"}
+#	
+#	Given user launch cleartrip application
+#	When user selects hotels tab
+#	Then user verifies search for hotels label
+#	And user enter city for hotel 'Mumbai'
+#	And user select checkIn and checkOut dates from calender
+#	And user selects no of travelers
+#	When user click search button
+#	Then user verify city label in results page
+#	
+#END
 
-
-SCENARIO: Round trip flight booking
+SCENARIO: Validate Train search
 META-DATA: {"description":"Round trip flight booking","groups":["SMOKE"],"dataFile":"resources/data.xls", "sheetName":"Sheet1"}
 	
 	Given user launch cleartrip application
-	When user selects flights tab
-	Then user selects round trip
-	And user enter '${originCity}' and '${destCity}'
-	And user select dates from calender
-	When user click on search flights
-	Then user verify results page
-	And user select flights and click on book button
-	
-	
-END
-
-SCENARIO: Round trip flight booking
-META-DATA: {"description":"Round trip flight booking","groups":["SMOKE"],"dataFile":"resources/data.xls", "sheetName":"Sheet1"}
-	
-	Given user launch cleartrip application
-	When user selects hotels tab
-	Then user verifies search for hotels label
-	And user enter city for hotel 'Mumbai Maharashtra, India'
-	And user select checkIn and checkOut dates from calender
-	And user selects no of travelers
-	When user click search button
-	Then user verify city label in results page
-	
+	When user selects trains tab
+	Then user verifies trains search header label
+	And user enter from 'Nellore' to 'Hyderabad' for travel
+	And user select 'AC 2 Tier' as train class
+	And user pick travel date from calender
+	And user select '2' adults for travel
+	When user click on search trains button
+	Then user verify train results page
 	
 END
 
