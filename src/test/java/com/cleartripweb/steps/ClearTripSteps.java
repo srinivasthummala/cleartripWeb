@@ -27,7 +27,7 @@ public class ClearTripSteps extends WebDriverTestCase {
 
 	@QAFTestStep(description="user launch cleartrip application")
 	public void userLaunchCleartripApplication(){
-		hm.launchPage();
+		hm.launchPage(null);
 		hm.waitForPageToLoad();
 	}
 	@QAFTestStep(description="user selects flights tab")

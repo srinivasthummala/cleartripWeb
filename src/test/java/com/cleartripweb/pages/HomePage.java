@@ -132,9 +132,9 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		getTxtDestinationHomepage().sendKeys(destCity);
 	}
 
-	public void launchPage() {
-		launchPage(null);
-	}
+//	public void launchPage() {
+//		launchPage(null);
+//	}
 
 	public void setDepartAndReturnDates(){
 		Date d = new Date();

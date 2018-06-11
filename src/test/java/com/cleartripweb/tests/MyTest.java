@@ -14,7 +14,7 @@ public class MyTest extends WebDriverTestCase {
 	@Test
 	public void test(Map<String, String> data) {
 		HomePage hm = new HomePage();
-		hm.launchPage();
+		hm.launchPage(null);
 		hm.waitForPageToLoad();
 		hm.selectLinksFromMenu();
 		hm.selectTripType();
